@@ -3,7 +3,7 @@ from google import genai
 from google.genai import types
 from gtts import gTTS
 
-API_KEY = "YOUR_API_KEY_GOES_HERE"
+API_KEY = "YOUR_API_KEY"
 client = genai.Client(api_key=API_KEY)
 
 def process_video_ai(video_path, mode, level_choice):
