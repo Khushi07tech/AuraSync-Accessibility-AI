@@ -45,6 +45,7 @@ def process_video_ai(video_path, mode, level_choice):
             2. Transcribe spoken dialogue with 100% accuracy.
             3. Include emotional cues in brackets (e.g., [Sarcastic tone], [Whispering]).
             4. Use a human, natural and cohesive language.
+            5. Use clear, concrete nouns and active verbs. Avoid complex metaphors that rely on sound-puns.
             """
     # DYNAMIC CONFIGURATION
     if level_choice == "Instant":
